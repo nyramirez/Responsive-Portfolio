@@ -1,0 +1,294 @@
+body {
+    background-image: url(../images/Friends\ FB.jpg);
+    z-index: 1;
+}
+
+.about-header {
+    position: absolute;
+    background-color: whitesmoke;
+    margin-left: 4%;
+    height: 14%;
+    width: 90%;
+}
+
+#name {
+    float: left;
+    width: 250px;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 100px;
+    background-color: rgb(88, 182, 211);
+    color: white;
+    font-size: 25px;
+}
+
+.linkgroup {
+    float: right;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right:100px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+a {
+    color: rgb(78, 78, 78);
+    text-align: center;
+    font-size: 20px;
+    height: 5px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 2px;
+    border-left-color: rgba(77, 73, 73, 0.884);
+    border-left-style: solid;
+}
+
+.about-content {
+    position: absolute;
+    background-color: whitesmoke;
+    margin-left: 4%;
+    height: 70%;
+    width: 90%;
+    margin-top: 10%;
+}
+
+h2 {
+    float: left;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    text-align: left;
+    margin-left: 75px;
+    background-color: whitesmoke;
+    color: rgb(88, 182, 211);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border-style: solid;
+    border-color: rgba(77, 73, 73, 0.884);
+    size: 3px;
+}
+
+.topcontent {
+    z-index: 2;
+    margin-top: 2%;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+#pic {
+    float: left;
+    width: 18%;
+    margin-left: 50px;
+}
+
+#firstp {
+    float: right;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 70%;
+    font-size: 20px;
+    color: rgba(77, 73, 73, 0.884);
+}
+
+.about-footer {
+    position: absolute;
+    background-color: whitesmoke;
+    margin-left: 4%;
+    height: 6%;
+    width: 90%;
+    margin-top: 51%;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(77, 73, 73, 0.884);
+}
+
+.form-area {
+    position: absolute;
+    margin: 5%;
+    z-index: 2;
+    margin-top: 1%;
+    background-color: whitesmoke;
+    width: 90%;
+}
+
+#nameEntry {
+    margin-top: 1%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 20%;
+}
+
+#emailEntry {
+    margin-top: 1%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 20%;
+}
+
+#messageEntry {
+    margin-top: 1%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 20%;
+}
+
+label {
+    margin-top: 5px;
+    font-size: 15px;
+    width: 80%;
+    background-color: transparent;
+    color: rgba(77, 73, 73, 0.884);
+    font-size: 25px;
+}
+
+input {
+    height: 7px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: black;
+    width: 80%;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    color: black;
+    font-size: 12px;
+}
+
+.about-content-portfolio {
+    position: absolute;
+    background-color: whitesmoke;
+    margin-left: 4%;
+    height: 80%;
+    width: 90%;
+    margin-top: 10%;
+}
+
+.upRow{
+    background-color: transparent;
+    margin: 2%;
+    margin-left: 5%;
+    height: 33%;
+    width: 90%;
+}
+
+.cerva-pic {
+    float: left;
+    background-image: url(../images/Cervantino\ 2008.jpg);
+    background-size: 100%;
+    margin: 6px;
+    margin-left: 5%;
+    height: 90%;
+    width: 25%;
+    border: 2px solid;
+    border-color: black;
+}
+
+#Cerva {
+    position: relative;
+    top: 85%;
+    background-color: rgb(88, 182, 211);
+    color: white;
+    padding: 9px 77px;
+}
+
+.chih-pic {
+    float: left;
+    background-image: url(../images/Chihuahua.jpg);
+    background-size: 50%;
+    margin: 6px;
+    margin-left: 70px;
+    height: 90%;
+    width: 25%;
+    border: 2px solid;
+    border-color: black;
+}
+
+#chih {
+    position: relative;
+    top: 85%;
+    background-color: rgb(88, 182, 211);
+    color: white;
+    padding: 9px 77px;
+}
+
+.newyork-pic {
+    float: left;
+    background-image: url(../images/New\ York.jpg);
+    background-size: 50%;
+    margin: 6px;
+    margin-left: 70px;
+    height: 90%;
+    width: 25%;
+    border: 2px solid;
+    border-color: black;
+}
+
+#newyork {
+    position: relative;
+    top: 85%;
+    left: 1%;
+    background-color: rgb(88, 182, 211);
+    color: white;
+    padding: 9px 100px;
+}
+
+.lowRow{
+    background-color: transparent;
+    margin: 2%;
+    margin-left: 5%;
+    height: 33%;
+    width: 90%;
+}
+
+.puebla-pic {
+    float: left;
+    background-image: url(../images/Puebla.jpg);
+    background-size: 100%;
+    margin: 6px;
+    margin-left: 5%;
+    height: 90%;
+    width: 25%;
+    border: 2px solid;
+    border-color: black;
+}
+
+#puebla {
+    position: relative;
+    top: 85%;
+    background-color: rgb(88, 182, 211);
+    color: white;
+    padding: 9px 117px;
+}
+
+
+.ponderosa-pic {
+    float: left;
+    background-image: url(../images/ponderosa.jpg);
+    background-size: 55%;
+    margin: 6px;
+    margin-left: 70px;
+    height: 90%;
+    width: 25%;
+    border: 2px solid;
+    border-color: black;
+}
+
+#ponderosa {
+    position: relative;
+    top: 85%;
+    background-color: rgb(88, 182, 211);
+    color: white;
+    padding: 9px 103px;
+}
