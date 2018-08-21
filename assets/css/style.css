@@ -334,7 +334,7 @@ button {
         padding-bottom: 10px;
         margin-top: 15px;
         margin-left: 11px;
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .linkgroup {
@@ -348,7 +348,7 @@ button {
     }
     
     .links {
-        font-size: 12px;
+        font-size: 16px;
         height: 5px;
     }
 
@@ -366,7 +366,8 @@ button {
         padding: 2px;
         text-align: left;
         margin-left: 30px;
-        font-size: 18px;
+        font-size: 25px;
+        margin-top: 3%;
     }
 
     hr {
@@ -377,15 +378,15 @@ button {
     #pic {
         float: left;
         width: 30%;
-        margin-top: 10%;
+        margin-top: 4%;
         margin-left: 6%;
     }
 
     #firstp {
         float: left;
-        margin-top:3%;
+        margin-top:2%;
         margin-left: 7%;
-        font-size: 14px;
+        font-size: 16px;
         width: 50%;
     }
 
@@ -394,12 +395,13 @@ button {
         top:7%;
         height: 80%;
         margin-left: 4%;
+        margin-top: 6%;
         width: 86%;
     }
 
     .upRow{
         margin: 1%;
-        height: 20%;
+        height: 33%;
         width: 100%;
     }
     
@@ -411,9 +413,9 @@ button {
     }
     
     #Cerva {
-       font-size: 14px;
-        padding: 3px 10px;
-        top: 70%;
+       font-size: 16px;
+        padding: 3px 30px;
+        top: 85%;
         margin-left: 20%;
     }
     
@@ -425,9 +427,9 @@ button {
     }
     
     #chih {
-        font-size: 14px;
-        padding: 3px 10px;
-        top: 70%;
+        font-size: 16px;
+        padding: 3px 30px;
+        top: 85%;
         margin-left: 20%;
     }
     
@@ -440,15 +442,15 @@ button {
     }
     
     #newyork {
-        font-size: 14px;
-        padding: 3px 10px;
-        top: 70%;
+        font-size: 16px;
+        padding: 3px 30px;
+        top: 85%;
         margin-left: 20%;
     }
     
     .lowRow{
         margin: 1%;
-        height: 20%;
+        height: 33%;
         width: 100%;
     }
     
@@ -460,10 +462,10 @@ button {
     }
     
     #puebla {
-        font-size: 14px;
-        padding: 3px 10px;
-        top: 70%;
-        margin-left: 20%;
+        font-size: 16px;
+        padding: 3px 30px;
+        top: 85%;
+        margin-left: 25%;
     }
     
     
@@ -475,10 +477,10 @@ button {
     }
     
     #ponderosa {
-        font-size: 14px;
-        padding: 3px 10px;
-        top: 70%;
-        margin-left: 20%;
+        font-size: 16px;
+        padding: 3px 30px;
+        top: 85%;
+        margin-left: 25%;
     }
 
     label {
