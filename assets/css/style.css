@@ -4,40 +4,46 @@ body {
 }
 
 .about-header {
-    position: absolute;
+    position: fixed;
+    top: 0;
     background-color: whitesmoke;
     margin-left: 4%;
-    height: 14%;
-    width: 90%;
+    margin-right: 4%;
+    width: 86%;
+    height: 14%;  
 }
 
 #name {
     float: left;
-    width: 250px;
-    height: 50px;
-    padding-top: 20px;
+    width: 30%;
+    height: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
     margin-left: 100px;
     background-color: rgb(88, 182, 211);
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Artifika', serif;
 }
 
 .linkgroup {
     float: right;
-    width: 300px;
-    height: 50px;
-    margin-top: 20px;
-    margin-right:100px;
-    padding-top: 30px;
+    width: 30%;
+    height: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
+    margin-right: 100px;
     background-color: whitesmoke;
+    margin-top: 25px;
 }
 
-a {
+.links {
+    font-family: 'Artifika', serif;
+    font-size: 15px;
     color: rgb(78, 78, 78);
     text-align: center;
-    font-size: 20px;
     height: 5px;
     text-decoration: none;
     padding-left: 15px;
@@ -48,12 +54,13 @@ a {
 }
 
 .about-content {
-    position: absolute;
-    background-color: whitesmoke;
+    position: fixed;
+    top: 20%;
     margin-left: 4%;
+    background-color: whitesmoke;
     height: 70%;
-    width: 90%;
-    margin-top: 10%;
+    width: 86%;
+    
 }
 
 h2 {
@@ -98,13 +105,13 @@ hr {
 }
 
 .about-footer {
-    position: absolute;
-    background-color: whitesmoke;
+    position: fixed;
+    bottom: 0;
     margin-left: 4%;
     height: 6%;
-    width: 90%;
-    margin-top: 51%;
+    width: 86%;
     text-align: center;
+    background-color: whitesmoke;
     font-size: 10px;
     color: rgba(77, 73, 73, 0.884);
 }
@@ -143,8 +150,8 @@ hr {
 }
 
 label {
+    font-family: 'ABeeZee', sans-serif;
     margin-top: 5px;
-    font-size: 15px;
     width: 80%;
     background-color: transparent;
     color: rgba(77, 73, 73, 0.884);
@@ -152,18 +159,39 @@ label {
 }
 
 input {
+    font-family: 'ABeeZee', sans-serif;
     height: 7px;
     margin-bottom: 10px;
     font-size: 12px;
     color: black;
     width: 80%;
+    border: 2px solid;
+    border-color: gray;
 }
 
 textarea {
     width: 100%;
-    height: 200px;
+    height: 180px;
     color: black;
     font-size: 12px;
+    border: 2px solid;
+    border-color: gray;
+}
+
+button {
+    margin-top: 2%;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: rgb(88, 182, 211);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 .about-content-portfolio {
@@ -291,4 +319,561 @@ textarea {
     background-color: rgb(88, 182, 211);
     color: white;
     padding: 9px 103px;
+}
+
+
+@media screen and (max-width: 980px) {
+    .about-header {
+        height: 10%;  
+    }
+    
+    #name {
+        float: left;
+        padding: 15px;
+        padding-top: 6px;
+        padding-bottom: 10px;
+        margin-top: 15px;
+        margin-left: 11px;
+        font-size: 18px;
+    }
+
+    .linkgroup {
+        float: right;
+        width: 50%;
+        height: 30%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin-right: 0px;
+        margin-top: 4px;
+    }
+    
+    .links {
+        font-size: 12px;
+        height: 5px;
+    }
+
+
+    .about-content {
+        position: fixed;
+        top: 15%;
+        height: 77%;  
+    }
+
+    h2 {
+        float: left;
+        width: 89%;
+        height: 15px;
+        padding: 2px;
+        text-align: left;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+
+    hr {
+        margin-top: 10%;
+        size: 1px;
+    }
+
+    #pic {
+        float: left;
+        width: 30%;
+        margin-top: 10%;
+        margin-left: 6%;
+    }
+
+    #firstp {
+        float: left;
+        margin-top:3%;
+        margin-left: 7%;
+        font-size: 14px;
+        width: 50%;
+    }
+
+    .about-content-portfolio {
+        position: fixed;
+        top:7%;
+        height: 80%;
+        margin-left: 4%;
+        width: 86%;
+    }
+
+    .upRow{
+        margin: 1%;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .cerva-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #Cerva {
+       font-size: 14px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+    
+    .chih-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #chih {
+        font-size: 14px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+    
+    .newyork-pic {
+        margin: 2%;
+        height: 70%;
+        width: 22%;
+        margin-right: 1%;
+        margin-top:11px;
+    }
+    
+    #newyork {
+        font-size: 14px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+    
+    .lowRow{
+        margin: 1%;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .puebla-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #puebla {
+        font-size: 14px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+    
+    
+    .ponderosa-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #ponderosa {
+        font-size: 14px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+
+    label {
+        font-size: 15px;
+    }
+    
+    input {
+        height: 5px;
+    }
+
+    button {
+        margin-top: 1%;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .form-area {
+        position: relative;
+        margin-top: 3%;
+        z-index: 2;
+        background-color: whitesmoke;
+        width: 90%;
+        height: 80%;
+    }
+
+    form {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-header {
+        height: 10%;  
+    }
+    
+    #name {
+        float: left;
+        padding: 15px;
+        padding-top: 6px;
+        padding-bottom: 10px;
+        margin-top: 15px;
+        margin-left: 11px;
+        font-size: 18px;
+    }
+
+    .linkgroup {
+        float: right;
+        width: 50%;
+        height: 30%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin-right: 0px;
+        margin-top: 4px;
+    }
+    
+    .links {
+        font-size: 12px;
+        height: 5px;
+    }
+
+
+    .about-content {
+        position: fixed;
+        top: 15%;
+        height: 77%;  
+    }
+
+    h2 {
+        float: left;
+        width: 89%;
+        height: 15px;
+        padding: 2px;
+        text-align: left;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+
+    hr {
+        margin-top: 10%;
+        size: 1px;
+    }
+
+    #pic {
+        float: left;
+        width: 30%;
+        margin-top: 10%;
+        margin-left: 6%;
+    }
+
+    #firstp {
+        float: left;
+        margin-top:3%;
+        margin-left: 7%;
+        font-size: 14px;
+        width: 50%;
+    }
+
+    .about-content-portfolio {
+        position: fixed;
+        top:7%;
+        height: 80%;
+        margin-left: 4%;
+        width: 86%;
+    }
+
+    .upRow{
+        margin: 1%;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .cerva-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #Cerva {
+       font-size: 14px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+    
+    .chih-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #chih {
+        font-size: 14px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+    
+    .newyork-pic {
+        margin: 2%;
+        height: 70%;
+        width: 22%;
+        margin-right: 1%;
+        margin-top:11px;
+    }
+    
+    #newyork {
+        font-size: 14px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+    
+    .lowRow{
+        margin: 1%;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .puebla-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #puebla {
+        font-size: 14px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+    
+    
+    .ponderosa-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #ponderosa {
+        font-size: 14px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+
+    label {
+        font-size: 15px;
+    }
+    
+    input {
+        height: 5px;
+    }
+
+    button {
+        margin-top: 1%;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .form-area {
+        position: relative;
+        margin-top: 3%;
+        z-index: 2;
+        background-color: whitesmoke;
+        width: 90%;
+        height: 80%;
+    }
+
+    form {
+        margin-top: 5%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .about-header {
+        height: 10%;  
+    }
+    
+    #name {
+        float: left;
+        padding: 15px;
+        padding-top: 6px;
+        padding-bottom: 19px;
+        margin-top: 15px;
+        margin-left: 11px;
+        font-size: 15px;
+    }
+
+    .linkgroup {
+        float: right;
+        width: 50%;
+        height: 30%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-right: 0px;
+        margin-top: 4px;
+    }
+    
+    .links {
+        font-size: 9px;
+        height: 5px;
+    }
+
+
+    .about-content {
+        position: fixed;
+        top: 15%;
+        height: 77%;  
+    }
+
+    h2 {
+        float: left;
+        width: 89%;
+        height: 15px;
+        padding: 2px;
+        text-align: left;
+        margin-left: 25px;
+        font-size: 13px;
+    }
+
+    hr {
+        size: 1px;
+    }
+
+    #pic {
+        float: left;
+        width: 25%;
+        margin-left: 40%;
+    }
+
+    #firstp {
+        float: left;
+        margin-left: 7%;
+        font-size: 10px;
+        width: 90%;
+    }
+
+    .about-content-portfolio {
+        position: fixed;
+        top:7%;
+        height: 85%;
+        margin-left: 4%;
+        width: 86%;
+    }
+
+    .upRow{
+        margin: 1%;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .cerva-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #Cerva {
+       font-size: 9px;
+        padding: 3px 10px;
+        top: 70%;
+    }
+    
+    .chih-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #chih {
+        font-size: 9px;
+        padding: 3px 10px;
+        top: 70%;
+    }
+    
+    .newyork-pic {
+        margin: 2%;
+        height: 70%;
+        width: 22%;
+        margin-right: 1%;
+        margin-top:11px;
+    }
+    
+    #newyork {
+        font-size: 9px;
+        padding: 3px 10px;
+        top: 70%;
+    }
+    
+    .lowRow{
+        margin: 1%;
+        height: 20%;
+        width: 100%;
+    }
+    
+    .puebla-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #puebla {
+        font-size: 9px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+    
+    
+    .ponderosa-pic {
+        margin: 2%;
+        height: 70%;
+        width: 30%;
+        margin-top:12px;
+    }
+    
+    #ponderosa {
+        font-size: 9px;
+        padding: 3px 10px;
+        top: 70%;
+        margin-left: 20%;
+    }
+
+    label {
+        font-size: 15px;
+    }
+    
+    input {
+        height: 5px;
+    }
+
+    button {
+        margin-top: 1%;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .form-area {
+        position: relative;
+        margin-top: 20%;
+        z-index: 2;
+        background-color: whitesmoke;
+        width: 90%;
+        height: 86%;
+    }
+
+    form {
+        margin-top: 20%;
+    }
 }
